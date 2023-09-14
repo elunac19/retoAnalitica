@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+
 df = pd.read_csv("openpowerlifting.csv")
 
 #Aqui tuve que poner abs value, debido a que algunos values dan negativos pero es por error de sistema de obtencion de datos. 
