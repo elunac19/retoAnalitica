@@ -19,3 +19,7 @@ print( df.info() )
 # Este comando es para imprimir la información general sobre los datos, como el promedio, max, min, 
 # la diferencia de valores entre las variables (std) y el número de valores contados.
 print( df[columns_describe].describe() )
+
+#CONCLUSIÓN ---
+#Valores como min y max, no se relacionana con ninguna de las otras variables, pues simplemente cuentan el max o min valor
+#una variable. Sin embargo, si tomas encuenta el mean de todas las variables puedes darte una idea general de los powerlifters.
